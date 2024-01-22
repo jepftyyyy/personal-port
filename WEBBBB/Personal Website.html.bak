@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JeffersonMapua - Personal Portfolio Website </title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">J <span> M</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Other</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/JeffersonMapua"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/jepfty/?fbclid=IwAR3V0V26umJDf_ShbhvJN0bFd8B0X0M63_wWTb2mFUvyKy_Fqr0rAaIyr14"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.facebook.com/IamJep16/"><i class='bx bxl-facebook'></i></a>
+    </div>
+    <div class="home-img">
+        <img src="image/lakers.jpg" alt="">
+    </div>
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Jefferson Mapua</h1>
+        <h2>Frontend Developer</h2>
+        <p>I'm studying at STI Collge Global City as Bachelor of Science in Information Technology. <br></p>
+        <a href="#contact" class="btn">Download CV</a>
+    </div>
+</section>
+<!-- Home Section End -->
+<!-- About Section Start -->
+<br><br><br><br><br><br><br><br><br>
+<section class="about" id="about">
+    <div class="heading">
+      <br><br><br><br><br><br><br>
+        <h2>About Me</h2>
+        <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+        <div class="about-img">
+            <img src="image/j.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <p>As an ambitious and dedicated IT student, I am eager to apply my knowledge and skills to real-world projects and challenges. I am well-prepared to make meaningful contributions to any team. My passion for technology and innovation drives me to constantly learn and grow, and I am excited to continue that journey as a part of your organization.</p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Jefferson Mapua</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>09*844542**</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>pogiako123123@gmail.com</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Skills Section Start -->
+<br><br><br><br><br><br>
+<section class="skills" id="skills">
+    <div class="heading">
+      <br><br><br><br>
+        <h2>Skills</h2>
+        <span>My Skills</span>
+    </div>
+
+    <div class="skills-container">
+        <div class="bars">
+
+            <div class="services-content">
+
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3>Front-end Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+		 <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>UI/UX Design</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3>App Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+		 <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>UI/UX Design</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3>App Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+            </div>
+        </div>
+        <div class="skills-img">
+            <img src="image/app.png" alt="Skill">
+        </div>
+    </div>
+</section>
+<!-- Skills Section End -->
+<!-- Services Section Start -->
+<section class="services" id="services">
+    <div class="heading">
+      <br><br><br><br><br><br><br>
+        <h2>Porfolio</h2>
+        <span>Skills</span>
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3>Front-end Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>UI/UX Design</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3>App Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact" id="contact">
+    <div class="heading">
+      <br><br><br><br><br><br><br><br><br><br><br>
+        <h2>Contact</h2>
+        <span>Connect With Me</span>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="email" name="" id="" placeholder="Your Email">
+            <textare name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textare>
+                                <input type="button" value="Send" class="contact-button">
+                                </form>
+                            </div>
+                            </section>
+                            <!-- Contact Section End -->
+                         <div class="footer">
+                                <h2>Follow Me</h2>
+                                <div class="footer-social">
+                                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                                </div>
+
+                            </div>
+
+                            <div class="copyright">
+                                ©2023 JeffersonMapua | All Right Reserved.</p>
+                            </div>
+                            <!-- Javascript -->
+                            <script src="asset/js.js"></script>
+</body>
+
+</html>

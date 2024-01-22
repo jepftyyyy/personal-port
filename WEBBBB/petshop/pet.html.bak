@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales De Compania</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><img class="my-eye" src="a1.png" alt=""> Animales <span>De</span> Compania </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#shop">shop</a>
+        <a href="#services">services</a>
+        <a href="#program">program</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="#">forget password</a>
+            <a href="#">sign up</a>
+        </div>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+       <h3> <span></span>welcome to Animales De Compania </h3>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <img src="image/bottom_wave.png" class="wave" alt="">
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/logo.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>About <span>Us</span> </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum sint, dolore perspiciatis iure consequuntur eligendi quaerat vitae shaikh anas.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- dog and cat food banner section starts -->
+
+<div class="dog-food">
+
+    <div class="image">
+        <img src="image/2.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3> <span>Pedi</span>gree</h3>
+        <p>Best Seller for dog food.</p>
+        <div class="amount">₱1,200.00 - ₱1700.00</div>
+        <a href="#"> <img src="image/shop1.png" alt=""> </a>
+    </div>
+
+</div>
+
+<div class="cat-food">
+
+    <div class="content">
+        <h3> <span>Whisk</span>as</h3>
+        <p>Best Seller for cat food.</p>
+        <div class="amount">₱1,200.00 - ₱1700.00</div>
+        <a href="#"> <img src="image/shop1.png" alt=""> </a>
+    </div>
+
+    <div class="image">
+        <img src="image/whiskas.png" alt="">
+    </div>
+
+</div>
+
+<!-- dog and cat food banner section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+  
+	
+	<section class="portfolio-section section">
+    <div class="container">
+        <div class="row">
+           
+        </div>
+        <!--filter start-->
+        <div class="row">
+            <div class="portfolio-filter active">
+			<h1 class="heading"> our <span> products </span> </h1>
+                
+				<nav class="navbar">
+        <a class="filter-item" href="#shop">All</a>
+        <a class="filter-item" href="#food1">Food</a>
+        <a class="filter-item" href="#medicine">Medicine</a>
+		<a class="filter-item" href="#vitamins">Vitamins</a>
+        <a class="filter-item" href="#other">other</a>
+       
+    </nav>
+         
+            </div>
+        </div>
+<div class="container1">
+    <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="image/advocate.png" alt="">
+         <h3>Advocate</h3>
+         <div class="price">₱1,500 - ₱2,000</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="image/afoxolaner.jpg" alt="">
+         <h3>NexGard Afoxolaner</h3>
+         <div class="price">₱500 - ₱1,500</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="image/anti.jpg" alt="">
+         <h3>Anti-Coprophagic</h3>
+         <div class="price">₱700 - ₱830</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="image/betaglucan.jpg" alt="">
+         <h3>Betaglucan</h3>
+         <div class="price">₱500 - ₱2,000</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="image/bowl.jpg" alt="">
+         <h3>Bowl</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="image/bravecto.jpg" alt="">
+         <h3>Bravecto</h3>
+         <div class="price">₱900 - ₱1,000</div>
+      </div>
+
+<div class="product" data-name="p-7">
+         <img src="image/2.png" alt="">
+         <h3>Pedigree</h3>
+         <div class="price">₱600 - ₱900</div>
+      </div>
+	  <div class="product" data-name="p-8">
+         <img src="image/brit.png" alt="">
+         <h3>Brit Premium</h3>
+         <div class="price">₱500 - ₱2,000</div>
+      </div>
+	  <div class="product" data-name="p-9">
+         <img src="image/brush.jpg" alt="">
+         <h3>Brush</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+	  <div class="product" data-name="p-10">
+         <img src="image/cage.jpg" alt="">
+         <h3>Cat Cage</h3>
+         <div class="price">₱800 - ₱1000</div>
+      </div>
+	 
+	  <div class="product" data-name="p-12">
+         <img src="image/coatshine.jpg" alt="">
+         <h3>CoatShine</h3>
+         <div class="price">₱300 - ₱350</div>
+      </div>
+	  <div class="product" data-name="p-13">
+         <img src="image/collar.jpg" alt="">
+         <h3>Collar</h3>
+         <div class="price">₱100 - ₱150</div>
+      </div>
+	  <div class="product" data-name="p-14">
+         <img src="image/cosi.jpg" alt="">
+         <h3>Cosi Pet Milk</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+	  <div class="product" data-name="p-15">
+         <img src="image/crate.jpg" alt="">
+         <h3>Dog Cage</h3>
+         <div class="price">₱900 - ₱1100</div>
+      </div>
+	  <div class="product" data-name="p-16">
+         <img src="image/emerplex.png" alt="">
+         <h3>Emerplex</h3>
+         <div class="price">₱300 - ₱400</div>
+      </div>
+	  <div class="product" data-name="p-17">
+         <img src="image/enmalac.jpg" alt="">
+         <h3>Enmalac</h3>
+         <div class="price">₱350 - ₱500</div>
+      </div>
+	  <div class="product" data-name="p-18">
+         <img src="image/healthycoat.jpg" alt="">
+         <h3>Healthy Coat</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-19">
+         <img src="image/healthyheart.jpg" alt="">
+         <h3>Healthy Heart</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-20">
+         <img src="image/healthyvision.jpg" alt="">
+         <h3>Healthy Vision</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-21">
+         <img src="image/immunol.png" alt="">
+         <h3>Himalaya Immunol</h3>
+         <div class="price">₱550 - ₱700</div>
+      </div>
+	  <div class="product" data-name="p-22">
+         <img src="image/k9.jpg" alt="">
+         <h3>K9-ease Tablet</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-23">
+         <img src="image/lc.jpg" alt="">
+         <h3>LC-Vitamins</h3>
+         <div class="price">₱200 - ₱250</div>
+      </div>
+	  <div class="product" data-name="p-24">
+         <img src="image/leash.png" alt="">
+         <h3>Dog Leash</h3>
+         <div class="price">₱150 - ₱250</div>
+      </div>
+	  <div class="product" data-name="p-25">
+         <img src="image/papi.jpg" alt="">
+         <h3>Papi MVP</h3>
+         <div class="price">₱265 - ₱300</div>
+      </div>
+	  <div class="product" data-name="p-26">
+         <img src="image/papiiron.png" alt="">
+         <h3>Papi Iron Plus</h3>
+         <div class="price">₱200 - ₱250</div>
+      </div>
+	  <div class="product" data-name="p-27">
+         <img src="image/papiob.png" alt="">
+         <h3>Papi Ob Syrup</h3>
+         <div class="price">₱200 - 250</div>
+      </div>
+	  <div class="product" data-name="p-28">
+         <img src="image/petsure.jpg" alt="">
+         <h3>Pet Sure</h3>
+         <div class="price">₱300 - ₱350</div>
+      </div>
+	  <div class="product" data-name="p-29">
+         <img src="image/prefolic.jpg" alt="">
+         <h3>Prefolic-Cee</h3>
+         <div class="price">₱250 - ₱350</div>
+      </div>
+	  <div class="product" data-name="p-30">
+         <img src="image/renal.jpg" alt="">
+         <h3>Renal Care Syrup</h3>
+         <div class="price">₱300 - ₱400</div>
+      </div>
+	  <div class="product" data-name="p-31">
+         <img src="image/royal1.png" alt="">
+         <h3>Royal Canin For Cats</h3>
+         <div class="price">₱800 - ₱900</div>
+      </div>
+	  <div class="product" data-name="p-32">
+         <img src="image/royal2.png" alt="">
+         <h3>Royal Canin For Dogs</h3>
+         <div class="price">₱800 - ₱900</div>
+      </div>
+	  <div class="product" data-name="p-33">
+         <img src="image/sheba.png" alt="">
+         <h3>Sheba</h3>
+         <div class="price">₱800 - 900</div>
+      </div>
+	  <div class="product" data-name="p-34">
+         <img src="image/specialdog.jpg" alt="">
+         <h3>Speacial Dog</h3>
+         <div class="price">₱800 - ₱900</div>
+      </div>
+	  <div class="product" data-name="p-35">
+         <img src="image/spectra.png" alt="">
+         <h3>NexGard Spectra</h3>
+         <div class="price">₱600 - ₱700</div>
+      </div>
+	  <div class="product" data-name="p-36">
+         <img src="image/storage.jpg" alt="">
+         <h3>Pet Food Storage</h3>
+         <div class="price">₱350 - ₱400</div>
+      </div>
+	  <div class="product" data-name="p-37">
+         <img src="image/toyss.png" alt="">
+         <h3>Toys</h3>
+         <div class="price">₱100 - ₱200</div>
+      </div>
+	  <div class="product" data-name="p-38">
+         <img src="image/umervit.png" alt="">
+         <h3>Emervit</h3>
+         <div class="price">₱250 - ₱300</div>
+      </div>
+	  <div class="product" data-name="p-40">
+         <img src="image/Whiskas.png" alt="">
+         <h3>Whiskas</h3>
+         <div class="price">₱800 - ₱900</div>
+      </div>
+	 
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="image/advocate.png" alt="">
+      <h3>Advocate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱1,500 - ₱2,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="image/afoxolaner.jpg" alt="">
+      <h3>Afoxolaner</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱1,500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="image/anti.jpg" alt="">
+      <h3>Anti</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱700 - ₱830</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="image/betaglucan.jpg" alt="">
+      <h3>Betaglucan</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱2,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="image/bowl.jpg" alt="">
+      <h3>Bowl</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="image/bravecto.jpg" alt="">
+      <h3>Bravecto</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="image/2.png" alt="">
+      <h3>Pedigree</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱600 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="image/brit.png" alt="">
+      <h3>Brit Premium</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱2,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="image/brush.jpg" alt="">
+      <h3>Brush</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="image/cage.jpg" alt="">
+      <h3>Cat Cage</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱1000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    
+    <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="image/coatshine.jpg" alt="">
+      <h3>CoatShine</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="image/collar.jpg" alt="">
+      <h3>Collar</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱100 - ₱150</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="image/cosi.jpg" alt="">
+      <h3>Cosi Pet Milk</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="image/crate.jpg" alt="">
+      <h3>Dog Cage</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+      <img src="image/emerplex.png" alt="">
+      <h3>Emerplex</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱400</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+      <img src="image/enmalac.jpg" alt="">
+      <h3>Enmalac</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱350 - ₱500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-18">
+      <i class="fas fa-times"></i>
+      <img src="image/healthycoat.jpg" alt="">
+      <h3>Healthy Coat </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-19">
+      <i class="fas fa-times"></i>
+      <img src="image/healthyheart.jpg" alt="">
+      <h3>Healthy Heart </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-20">
+      <i class="fas fa-times"></i>
+      <img src="image/healthyvision.jpg" alt="">
+      <h3>Healthy Vision </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-21">
+      <i class="fas fa-times"></i>
+      <img src="image/immunol.png" alt="">
+      <h3>Himalaya Immunol </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱700</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-22">
+      <i class="fas fa-times"></i>
+      <img src="image/k9.jpg" alt="">
+      <h3> K9-ease Tablet</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-23">
+      <i class="fas fa-times"></i>
+      <img src="image/lc.jpg" alt="">
+      <h3>LC-Vitamins </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-24">
+      <i class="fas fa-times"></i>
+      <img src="image/leash.png" alt="">
+      <h3>Dog Leash </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-25">
+      <i class="fas fa-times"></i>
+      <img src="image/papi.jpg" alt="">
+      <h3>Papi MVP</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱265 - ₱300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-26">
+      <i class="fas fa-times"></i>
+      <img src="image/papiiron.png" alt="">
+      <h3>Papi Iron Plus </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱200 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-27">
+      <i class="fas fa-times"></i>
+      <img src="image/papiob.png" alt="">
+      <h3>Papi OB Syrup </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱200 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-28">
+      <i class="fas fa-times"></i>
+      <img src="image/petsure.jpg" alt="">
+      <h3> Petsure</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-29">
+      <i class="fas fa-times"></i>
+      <img src="image/prefolic.jpg" alt="">
+      <h3>Prefolic-Cee </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱250 - ₱350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-30">
+      <i class="fas fa-times"></i>
+      <img src="image/renal.jpg" alt="">
+      <h3> Renal Care Syrup</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱400</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-31">
+      <i class="fas fa-times"></i>
+      <img src="image/royal1.png" alt="">
+      <h3>Royal Canin for Cat </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-32">
+      <i class="fas fa-times"></i>
+      <img src="image/royal2.png" alt="">
+      <h3>Royal Canin for Dog </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-33">
+      <i class="fas fa-times"></i>
+      <img src="image/sheba.png" alt="">
+      <h3>Sheba  </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-34">
+      <i class="fas fa-times"></i>
+      <img src="image/specialdog.jpg" alt="">
+      <h3>Speacial Dog Complete Menu </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-35">
+      <i class="fas fa-times"></i>
+      <img src="image/spectra.png" alt="">
+      <h3>NexGard Spectra </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱600 - ₱700</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-36">
+      <i class="fas fa-times"></i>
+      <img src="image/storage.jpg" alt="">
+      <h3>Pet food Storage </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱350 - ₱400</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-37">
+      <i class="fas fa-times"></i>
+      <img src="image/toyss.png" alt="">
+      <h3>Toys </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱100 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-38">
+      <i class="fas fa-times"></i>
+      <img src="image/umervit.png" alt="">
+      <h3>Emervit </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱250 - ₱300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    
+    <div class="preview" data-target="p-40">
+      <i class="fas fa-times"></i>
+      <img src="image/whiskas.png" alt="">
+      <h3>Whiskas </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+   
+
+</div>
+</section>
+</section>
+
+<section class="shop" id="food1">
+<section class="portfolio-section section">
+    <div class="container">
+        <div class="row">
+           
+        </div>
+        <!--filter start-->
+        <div class="row">
+            <div class="portfolio-filter active">
+			<h1 class="heading"> our <span> food </span> </h1>
+                
+				<nav class="navbar">
+        <a class="filter-item" href="#shop">All</a>
+        <a class="filter-item" href="#food1">Food</a>
+        <a class="filter-item" href="#medicine">Medicine</a>
+		<a class="filter-item" href="#vitamins">Vitamins</a>
+        <a class="filter-item" href="#other">other</a>
+       
+    </nav>
+         
+            </div>
+        </div>
+<div class="container1">
+    <div class="products-container">
+
+      <div class="product" data-name="p-40">
+         <img src="image/whiskas.png" alt="">
+         <h3>Whiskas</h3>
+         <div class="price">₱600 - ₱900</div>
+      </div>
+
+      <div class="product" data-name="p-7">
+         <img src="image/2.png" alt="">
+         <h3>Pedigree </h3>
+         <div class="price">₱600 - ₱900</div>
+      </div>
+
+      <div class="product" data-name="p-34">
+         <img src="image/specialdog.jpg" alt="">
+         <h3>Special Dog Complete Menu</h3>
+         <div class="price">₱900 - ₱1,100</div>
+      </div>
+
+      <div class="product" data-name="p-14">
+         <img src="image/cosi.jpg" alt="">
+         <h3>Cosi Pet Milk</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+
+      <div class="product" data-name="p-31">
+         <img src="image/royal1.png" alt="">
+         <h3>Royal Canin for Cat</h3>
+         <div class="price">₱900 - ₱1,100</div>
+      </div>
+
+      <div class="product" data-name="p-32">
+         <img src="image/royal2.png" alt="">
+         <h3>Royal Canin for Dog</h3>
+         <div class="price">₱900 - ₱1,100</div>
+      </div>
+
+<div class="product" data-name="p-33">
+         <img src="image/sheba.png" alt="">
+         <h3>Sheba</h3>
+         <div class="price">₱800 - ₱900</div>
+      </div>
+
+
+<div class="product" data-name="p-8">
+         <img src="image/brit.png" alt="">
+         <h3>Brit Premium</h3>
+         <div class="price">₱500 - ₱1,100</div>
+      </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-40">
+      <i class="fas fa-times"></i>
+      <img src="image/whiskas.png" alt="">
+      <h3>Whiskas</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱600 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="image/2.png" alt="">
+      <h3>Pedigree</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱600 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-34">
+      <i class="fas fa-times"></i>
+      <img src="image/specialdog.jpg" alt="">
+      <h3>Special Dog Complete Menu</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1,100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="image/cosi.jpg" alt="">
+      <h3>Cosi Pet Milk</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-31">
+      <i class="fas fa-times"></i>
+      <img src="image/royal1.png" alt="">
+      <h3>Royal Canin for Cat</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1,100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-32">
+      <i class="fas fa-times"></i>
+      <img src="image/royal2.png" alt="">
+      <h3>Royal Canin for Dog</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1,100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+   <div class="preview" data-target="p-33">
+      <i class="fas fa-times"></i>
+      <img src="image/sheba.png" alt="">
+      <h3>Sheba</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+  <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="image/brit.png" alt="">
+      <h3>Brit Premium</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱1,100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+   
+
+</div>
+</section>
+</section>
+<section class="shop" id="medicine">
+<section class="portfolio-section section">
+    <div class="container">
+        <div class="row">
+           
+        </div>
+        <!--filter start-->
+        <div class="row">
+            <div class="portfolio-filter active">
+			<h1 class="heading"> our <span> medicine </span> </h1>
+                
+				<nav class="navbar">
+        <a class="filter-item" href="#shop">All</a>
+        <a class="filter-item" href="#food1">Food</a>
+        <a class="filter-item" href="#medicine">Medicine</a>
+		<a class="filter-item" href="#vitamins">Vitamins</a>
+        <a class="filter-item" href="#other">other</a>
+       
+    </nav>
+         
+            </div>
+        </div>
+<div class="container1">
+    <div class="products-container">
+
+     <div class="product" data-name="p-17">
+         <img src="image/enmalac.jpg" alt="">
+         <h3>Enmalac</h3>
+         <div class="price">₱350 - ₱500</div>
+      </div>
+
+       <div class="product" data-name="p-21">
+         <img src="image/immunol.png" alt="">
+         <h3>Himalaya Immunol</h3>
+         <div class="price">₱550 - ₱700</div>
+      </div>
+
+      <div class="product" data-name="p-30">
+         <img src="image/renal.jpg" alt="">
+         <h3>Renal Care Syrup</h3>
+         <div class="price">₱300 - ₱400</div>
+      </div>
+
+      <div class="product" data-name="p-29">
+         <img src="image/prefolic.jpg" alt="">
+         <h3>Prefolic-Cee</h3>
+         <div class="price">₱250 - ₱350</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="image/anti.jpg" alt="">
+         <h3>Anti-Coprophagic</h3>
+         <div class="price">₱700 - ₱830</div>
+      </div>
+
+       <div class="product" data-name="p-18">
+         <img src="image/healthycoat.jpg" alt="">
+         <h3>Healthy Coat</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-19">
+         <img src="image/healthyheart.jpg" alt="">
+         <h3>Healthy Heart</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	  <div class="product" data-name="p-20">
+         <img src="image/healthyvision.jpg" alt="">
+         <h3>Healthy Vision</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+	   <div class="product" data-name="p-1">
+         <img src="image/advocate.png" alt="">
+         <h3>Advocate</h3>
+         <div class="price">₱1,500 - ₱2,000</div>
+      </div>
+
+</div>
+
+<div class="products-preview">
+
+    <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+      <img src="image/enmalac.jpg" alt="">
+      <h3>Enmalac</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱350 - ₱500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-18">
+      <i class="fas fa-times"></i>
+      <img src="image/healthycoat.jpg" alt="">
+      <h3>Healthy Coat </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-19">
+      <i class="fas fa-times"></i>
+      <img src="image/healthyheart.jpg" alt="">
+      <h3>Healthy Heart </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-20">
+      <i class="fas fa-times"></i>
+      <img src="image/healthyvision.jpg" alt="">
+      <h3>Healthy Vision </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-21">
+      <i class="fas fa-times"></i>
+      <img src="image/immunol.png" alt="">
+      <h3>Himalaya Immunol </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱700</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="image/anti.jpg" alt="">
+      <h3>Anti</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱700 - ₱830</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="image/advocate.png" alt="">
+      <h3>Advocate</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱1,500 - ₱2,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+</div>
+			
+</section>
+</section>
+
+<section class="shop" id="vitamins">
+<section class="portfolio-section section">
+
+    <div class="container">
+        <div class="row">
+           
+        </div>
+        <!--filter start-->
+        <div class="row">
+            <div class="portfolio-filter active">
+			<h1 class="heading"> our <span> medicine </span> </h1>
+                
+				<nav class="navbar">
+        <a class="filter-item" href="#shop">All</a>
+        <a class="filter-item" href="#food1">Foods</a>
+        <a class="filter-item" href="#medicine">Medicine</a>
+		<a class="filter-item" href="#vitamins">Vitamins</a>
+        <a class="filter-item" href="#other">other</a>
+       
+    </nav>
+	<div class="container1">
+    <div class="products-container">
+
+      <div class="product" data-name="p-2">
+         <img src="image/afoxolaner.jpg" alt="">
+         <h3>NexGard Afoxolaner</h3>
+         <div class="price">₱500 - ₱1,500</div>
+      </div>
+<div class="product" data-name="p-22">
+         <img src="image/k9.jpg" alt="">
+         <h3>K9-ease Tablet</h3>
+         <div class="price">₱500 - ₱600</div>
+      </div>
+      <div class="product" data-name="p-6">
+         <img src="image/bravecto.jpg" alt="">
+         <h3>Bravecto</h3>
+         <div class="price">₱900 - ₱1,000</div>
+      </div>
+
+        <div class="product" data-name="p-35">
+         <img src="image/spectra.png" alt="">
+         <h3>NexGard Spectra</h3>
+         <div class="price">₱600 - ₱700</div>
+      </div>
+     <div class="product" data-name="p-25">
+         <img src="image/papi.jpg" alt="">
+         <h3>Papi</h3>
+         <div class="price">₱265 - ₱300</div>
+      </div>
+	  <div class="product" data-name="p-26">
+         <img src="image/papiiron.png" alt="">
+         <h3>Papi Iron</h3>
+         <div class="price">₱200 - ₱250</div>
+      </div>
+	  <div class="product" data-name="p-27">
+         <img src="image/papiob.png" alt="">
+         <h3>Papi Ob</h3>
+         <div class="price">₱200 - 250</div>
+      </div>
+	  <div class="product" data-name="p-28">
+         <img src="image/petsure.jpg" alt="">
+         <h3>Pet Sure</h3>
+         <div class="price">₱300 - ₱350</div>
+      </div>
+<div class="product" data-name="p-23">
+         <img src="image/lc.jpg" alt="">
+         <h3>LC</h3>
+         <div class="price">₱200 - ₱250</div>
+      </div>
+	  <div class="product" data-name="p-12">
+         <img src="image/coatshine.jpg" alt="">
+         <h3>CoatShine</h3>
+         <div class="price">₱300 - ₱350</div>
+      </div>
+	   <div class="product" data-name="p-38">
+         <img src="image/umervit.png" alt="">
+         <h3>Emervitamins</h3>
+         <div class="price">₱250 - ₱300</div>
+      </div>
+	   <div class="product" data-name="p-4">
+         <img src="image/betaglucan.jpg" alt="">
+         <h3>Betaglucan</h3>
+         <div class="price">₱500 - ₱2,000</div>
+      </div>
+</div>
+
+<div class="products-preview">
+
+    <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="image/betaglucan.jpg" alt="">
+      <h3>Betaglucan</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱2,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+   <div class="preview" data-target="p-22">
+      <i class="fas fa-times"></i>
+      <img src="image/k9.jpg" alt="">
+      <h3> K9-ease Tablet</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱600</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="image/bravecto.jpg" alt="">
+      <h3>Bravecto</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1,000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+<div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="image/coatshine.jpg" alt="">
+      <h3>CoatShine</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+      <img src="image/emerplex.png" alt="">
+      <h3>Emerplex</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱400</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-23">
+      <i class="fas fa-times"></i>
+      <img src="image/lc.jpg" alt="">
+      <h3>LC-Vitamins </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+<div class="preview" data-target="p-25">
+      <i class="fas fa-times"></i>
+      <img src="image/papi.jpg" alt="">
+      <h3>Papi MVP</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱265 - ₱300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-26">
+      <i class="fas fa-times"></i>
+      <img src="image/papiiron.png" alt="">
+      <h3>Papi Iron Plus </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱200 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-27">
+      <i class="fas fa-times"></i>
+      <img src="image/papiob.png" alt="">
+      <h3>Papi OB Syrup </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱200 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-28">
+      <i class="fas fa-times"></i>
+      <img src="image/petsure.jpg" alt="">
+      <h3> Petsure</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱300 - ₱350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-38">
+      <i class="fas fa-times"></i>
+      <img src="image/umervit.png" alt="">
+      <h3>Umervit </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱250 - ₱300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="image/afoxolaner.jpg" alt="">
+      <h3>Afoxolaner</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱500 - ₱1,500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   
+        </div>
+		</section>
+		</section>
+		<section class="shop" id="other">
+<section class="portfolio-section section">
+
+    <div class="container">
+        <div class="row">
+           
+        </div>
+        <!--filter start-->
+        <div class="row">
+            <div class="portfolio-filter active">
+			<h1 class="heading"> other <span> product </span> </h1>
+                
+				<nav class="navbar">
+        <a class="filter-item" href="#shop">All</a>
+        <a class="filter-item" href="#food1">Foods</a>
+        <a class="filter-item" href="#medicine">Medicine</a>
+		<a class="filter-item" href="#vitamins">Vitamins</a>
+        <a class="filter-item" href="#other">other</a>
+       
+    </nav>
+	<div class="container1">
+    <div class="products-container">
+<div class="product" data-name="p-36">
+         <img src="image/storage.jpg" alt="">
+         <h3>Pet Food Storage</h3>
+         <div class="price">₱350 - ₱400</div>
+      </div>
+	  <div class="product" data-name="p-37">
+         <img src="image/toyss.png" alt="">
+         <h3>Toys</h3>
+         <div class="price">₱100 - ₱200</div>
+      </div>
+<div class="product" data-name="p-5">
+         <img src="image/bowl.jpg" alt="">
+         <h3>Bowl</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+<div class="product" data-name="p-9">
+         <img src="image/brush.jpg" alt="">
+         <h3>Brush</h3>
+         <div class="price">₱150 - ₱200</div>
+      </div>
+	  <div class="product" data-name="p-10">
+         <img src="image/cage.jpg" alt="">
+         <h3>Cat Cage</h3>
+         <div class="price">₱800 - ₱1000</div>
+      </div>
+ <div class="product" data-name="p-13">
+         <img src="image/collar.jpg" alt="">
+         <h3>Collar</h3>
+         <div class="price">₱100 - ₱150</div>
+      </div>
+<div class="product" data-name="p-15">
+         <img src="image/crate.jpg" alt="">
+         <h3>Dog Cage</h3>
+         <div class="price">₱900 - ₱1100</div>
+      </div>
+ <div class="product" data-name="p-24">
+         <img src="image/leash.png" alt="">
+         <h3>Leash</h3>
+         <div class="price">₱150 - ₱250</div>
+      </div>
+</div>
+ <div class="products-preview">
+<div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="image/bowl.jpg" alt="">
+      <h3>Bowl</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="image/brush.jpg" alt="">
+      <h3>Brush</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+    <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="image/cage.jpg" alt="">
+      <h3>Cat Cage</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱800 - ₱1000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+<div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="image/collar.jpg" alt="">
+      <h3>Collar</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱100 - ₱150</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+<div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="image/crate.jpg" alt="">
+      <h3>Dog Cage</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱900 - ₱1100</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-24">
+      <i class="fas fa-times"></i>
+      <img src="image/leash.png" alt="">
+      <h3>Dog Leash </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱150 - ₱250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+ <div class="preview" data-target="p-37">
+      <i class="fas fa-times"></i>
+      <img src="image/toyss.png" alt="">
+      <h3>Toys </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₱100 - ₱200</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+</div>
+        </div>
+		</section>
+		</section>
+<!-- shop section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hand-holding-medical"></i>
+            <h3>Preventive Care</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-prescription"></i>
+            <h3>Diagnostic Medicine</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bath"></i>
+            <h3>Outpatient and Inpatient Care</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Minor and Major Surgery</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bath"></i>
+            <h3>Grooming</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tooth"></i>
+            <h3>Dental Service</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    
+	
+	<div class="box">
+            <i class="fas fa-stethoscope"></i>
+            <h3>After-Hours Emergency Care</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    
+	
+	<div class="box">
+            <i class="fas fa-cat"></i>
+            <h3>Boarding</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    
+	
+	<div class="box">
+            <i class="fas fa-truck"></i>
+            <h3>Retail</h3>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+</section>
+
+
+<!-- services section ends -->
+
+<!-- plan section starts  -->
+
+<section class="plan" id="program">
+
+    <h1 class="heading"> health Program for <span>Dogs </span> and <span>Cats</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title"></h3>
+            <h3 class="day">Vaccination</h3>
+            <i class="fas fa-syringe icon"></i>
+            <div class="list">
+			<p>Vaccinations prevent many pet illnesses. <span class="fas fa-check"></span> </p>
+			<p>Vaccinations can help avoid costly treatments for diseases that can be prevented. <span class="fas fa-check"></span> </p>
+			<p>Vaccinations prevent diseases that can be passed between animals and also from animals to people. <span class="fas fa-check"></span> </p>
+			<p>Diseases prevalent in wildlife, such as rabies and distemper, can infect unvaccinated pets. <span class="fas fa-check"></span> </p>
+              
+            </div>
+            
+            <a href="#" class="btn"> Prices </a>
+        </div>
+
+        <div class="box">
+           
+            <h3 class="day"> Deworming </h3>
+            <i class="fas fa-virus-slash icon"></i>
+            <div class="list">
+                <p> Pick up after your pet on walks and in your yard. <span class="fas fa-check"></span> </p>
+                <p> Cover sandboxes when not in use and keep garden areas protected. <span class="fas fa-check"></span> </p>
+                <p> Wash your hands thoroughly after disposing of animal faeces. <span class="fas fa-check"></span> </p>
+                <p> Discuss the most practical, effective parasite prevention program for your pets. <span class="fas fa-check"></span> </p>
+            </div>
+           
+            <a href="#" class="btn"> Prices </a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">Heartworm </h3>
+            <h3 class="day"> Prevention</h3>
+            <i class="fas fa-heart icon"></i>
+            <div class="list">
+                <p> The treatment for a heartworm infestation is unpleasant and comes with significant risks for your pet.  <span class="fas fa-check"></span> </p>
+                <p> Parasites are creatures that live on or inside another animal, called the host, and depend on it for their survival. Without a host, the parasite will die. <span class="fas fa-check"></span> </p>
+                <p> If your pet is considered “indoors-only,” all cats and dogs should be on a heartworm prevention medication. <span class="fas fa-check"></span> </p>
+               
+            </div>
+           
+            <a href="#" class="btn"> Prices </a>
+        </div>
+
+
+			<div class="box">
+            <h3 class="title">Tick/ Flea</h3>
+            <h3 class="day"> Prevention </h3>
+            <i class="fas fa-bug icon"></i>
+            <div class="list">
+                <p> Flea and tick infestations can impact the health of your pet. <span class="fas fa-check"></span> </p>
+                <p> Flea and tick prevention option is right for your pet is to consult your veterinarian. <span class="fas fa-check"></span> </p>
+                <p> Flea and tick prevention work to keep your pets happy and healthy, but these preventative measure also help keep your home and family safe from a flea or tick infestation <span class="fas fa-check"></span> </p>
+                
+            </div>
+          
+            <a href="#" class="btn"> Prices </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- plan section ends -->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+        <img src="image/logo.jpg" alt="">
+    </div>
+
+    <form action="">
+        <h3>contact us / Appointment</h3>
+        <input type="text" placeholder="your name" class="box">
+        <input type="email" placeholder="your email" class="box">
+        <input type="tumber" placeholder="your number" class="box">
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <img src="image/top_wave.png" alt="">
+
+    <div class="share">
+        <a href="https://www.facebook.com/petsocietyveterinaryclinic.craymundo" class="btn"> <i class="fab fa-facebook-f"></i> facebook </a>
+        
+        
+    </div>
+
+    
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="js/script1.js"></script>
+
+</body>
+</html>
